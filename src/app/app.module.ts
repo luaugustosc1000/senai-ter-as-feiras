@@ -13,6 +13,6 @@ import { CursosModule } from './cursos/cursos.module';
     CursosModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
