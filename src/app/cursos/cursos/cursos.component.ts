@@ -11,11 +11,8 @@ export class CursosComponent implements OnInit {
 
   paraExibicao: string[] = [];
 
- 
-  
   constructor(private service: CursoService) { }
    
-
   ngOnInit() {
 
     this.paraExibicao = this.service.getCursos();
